@@ -1,0 +1,56 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%loc%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+alt.cur
+working_48.ani
+busy_48.ani
+cross.cur
+diag1_48.ani
+diag2_48.ani
+handwriting.cur
+help.cur
+horiz_48.ani
+link.cur
+loc.cur
+normal.cur
+move_48.ani
+person.cur
+text.cur
+unavailable.cur
+vert_48.ani
+
+[Scheme.Txt]
+~README.txt
+
+[Strings]
+CUR_DIR       = "Cursors\lotus\red"
+SCHEME_NAME   = "lotus_red"
+pointer       = "normal.cur"
+help          = "help.cur"
+work          = "working_48.ani"
+busy          = "busy_48.ani"
+text          = "text.cur"
+unavailable   = "unavailable.cur"
+vert          = "vert_48.ani"
+horz          = "horiz_48.ani"
+dgn1          = "diag1_48.ani"
+dgn2          = "diag2_48.ani"
+move          = "move_48.ani"
+link          = "link.cur"
+cross         = "cross.cur"
+hand          = "handwriting.cur"
+alternate     = "alt.cur"
+loc	      = "loc.cur"
+person	      = "person.cur"
