@@ -138,12 +138,79 @@
 //     console.log(i);
 // };
 
-let num = prompt('Ведитете число больше 100');
-while (num < 100){
-    num = prompt('Ведитете другое число ещё раз');
-    console.log (num);
-};
+// let num = prompt('Ведитете число больше 100');
+// while (num < 100){
+//     num = prompt('Ведитете другое число ещё раз');
+//     console.log (num);
+// };
 
 
 
+// let lang = ru;
+// if (lang == 'ru'){
+//   alert('рус');
+// } else if (lang == 'en') {
+//   alert('англ');
+// } else if (lang =='de') {
+//   alert('нем');
+// } else {
+//   alert('язык не поддерживаеться');
+// }
 
+// let str = "hello word";
+// for(let i = 0; i<str.length; i++){
+//   console.log(str[i].toUpperCase())
+// }
+
+// function great () {
+//   console.log('hello word')
+// }
+// great()
+
+// function calcArea (width, height) {
+//   return width * height 
+// }
+// let res = calcArea(5,7);
+// console.log(res);
+
+
+
+// let str ="";
+// for ( let i = 0; i<5; i++){
+// console.log(str = str + '#')
+// }
+
+// function foo(nacme, ag) {
+//     if(age==)
+// }
+
+
+// function calcSum(a, b, k){
+//     return a + b + k
+// }
+// console.log(calcSum(5, 33, 2));
+
+// function foo(age) {
+//     if(age > 18) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+// let y = 20;
+// let x = 10;
+// function foo() {
+//     let x = 5;
+//     console.log(x + y);
+// }
+// console.log(foo(x))
+
+
+function ask (question, yes, no){
+    if(confirm question){
+        yes()
+    } else {
+
+    }
+
+    
